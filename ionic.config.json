@@ -1,0 +1,7 @@
+{
+  "name": "web_project_group",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
