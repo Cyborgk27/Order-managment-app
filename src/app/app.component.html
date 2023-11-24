@@ -1,3 +1,23 @@
 <ion-app>
   <ion-router-outlet></ion-router-outlet>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button routerLink="/home">
+        <ion-icon name="home-outline"></ion-icon>
+        Inicio
+      </ion-tab-button>
+      <ion-tab-button routerLink="/coupons">
+        <ion-icon name="pricetag-outline"></ion-icon>
+        Cupones
+      </ion-tab-button>
+      <ion-tab-button routerLink="/cart">
+        <ion-icon name="cart-outline"></ion-icon>
+        Carrito
+      </ion-tab-button>
+      <ion-tab-button routerLink="/profile">
+        <ion-icon name="person-outline"></ion-icon>
+        Perfil
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-app>
